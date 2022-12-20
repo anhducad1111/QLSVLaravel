@@ -1,0 +1,10 @@
+https://www.canva.com/design/DAFSLldN8XI/53fWWBQsrmCP_LbPACzjww/edit?utm_content=DAFSLldN8XI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Các view 
+CREATE VIEW v_teachercount  AS SELECT count(giangvien.id) AS soluonggv FROM giangvien;
+
+CREATE VIEW v_studentcount  AS SELECT count(sinhvien.id) AS total FROM sinhvien;
+
+CREATE VIEW v_usercount  AS SELECT count(users.id) AS soluong FROM users;
+
+CREATE VIEW v_classcount  AS SELECT count(lop.id) AS soluonglop FROM lop;
